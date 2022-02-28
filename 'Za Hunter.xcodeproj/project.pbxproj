@@ -13,6 +13,7 @@
 		3F659E0227CD30D00057CA69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F659E0127CD30D00057CA69 /* Preview Assets.xcassets */; };
 		3F659E0D27CD30D10057CA69 /* _Za_HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F659E0C27CD30D10057CA69 /* _Za_HunterTests.swift */; };
 		3F659E1827CD30D10057CA69 /* _Za_HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F659E1727CD30D10057CA69 /* _Za_HunterUITests.swift */; };
+		3F659E2627CD33350057CA69 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F659E2527CD33350057CA69 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F659E1327CD30D10057CA69 /* 'Za HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "'Za HunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F659E1727CD30D10057CA69 /* _Za_HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Za_HunterUITests.swift; sourceTree = "<group>"; };
 		3F659E1927CD30D10057CA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F659E2527CD33350057CA69 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				3F659DFA27CD30CA0057CA69 /* _Za_HunterApp.swift */,
 				3F659DFC27CD30CA0057CA69 /* ContentView.swift */,
+				3F659E2527CD33350057CA69 /* LocationManager.swift */,
 				3F659DFE27CD30D00057CA69 /* Assets.xcassets */,
 				3F659E0327CD30D00057CA69 /* Info.plist */,
 				3F659E0027CD30D00057CA69 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				3F659DFD27CD30CA0057CA69 /* ContentView.swift in Sources */,
 				3F659DFB27CD30CA0057CA69 /* _Za_HunterApp.swift in Sources */,
+				3F659E2627CD33350057CA69 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
